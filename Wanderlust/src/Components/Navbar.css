@@ -1,0 +1,39 @@
+.navbar {
+     background: linear-gradient(145deg, #283c86, #45a247);
+     color: #fff;
+     padding: 10px 0;
+     position:fixed;
+     width: 100%;
+     top: 0;
+     z-index: 1000;
+ }
+ 
+ .navbar .brand {
+     font-family: 'Georgia', serif;
+     text-decoration: none;
+     font-size: 2rem;
+     font-weight: bold;
+     color: #fff;
+ }
+ 
+ .navbar .nav-links {
+     list-style: none;
+     text-align: right;
+ }
+ 
+ .navbar .nav-links li {
+     display: inline;
+     margin-right: 50px;
+ }
+ 
+ .navbar .nav-links li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.5rem;
+     font-weight: bold;
+     transition: color 0.3s ease;
+ }
+ 
+ .navbar .nav-links li a:hover {
+     color: #00f829fc;
+ }

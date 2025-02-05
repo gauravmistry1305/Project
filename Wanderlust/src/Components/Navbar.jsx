@@ -1,18 +1,20 @@
+// import { Navigate } from 'react-router-dom
 import './Navbar.css'
 
 const Navbar = () => {
   return (
     <div>
-            <nav>
-                 <h3>WanderLust</h3>
-                 <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Contact Us</a></li>
-                      
-                 </ul>
-      </nav>
+           <nav className="navbar">
+    <div className="container">
+            <a href="#" className="brand">Wanderlust</a>
+            <ul className="nav-links">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     </div>
   )
 }
