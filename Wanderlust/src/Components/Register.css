@@ -28,6 +28,7 @@ body {
  
  /* Labels */
  label {
+    font-weight: 900;
      display: block;
      font-size: 14px;
      color: #555;
