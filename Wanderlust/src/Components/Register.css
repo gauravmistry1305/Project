@@ -1,11 +1,16 @@
 /* General Page Styling */
-body {
+.register {
      font-family: 'Poppins', sans-serif;
-     background: linear-gradient(145deg, #d0a9f9, #2575fc);
+     background: linear-gradient(145deg, #d0a9f9, #2575fc); 
+     backface-visibility: hidden;
+     background-size: cover;
+     background: fixed;
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
-     height: 100vh;
+     /* height: 100vh; */
+     height: 100%;
      margin: 0;
  }
  
