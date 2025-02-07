@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from './Footer';
 import './Home.css';
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
         <h2>Popular Destinations in India</h2>
         <div className="destinations-list">
           <div className="destination-item">
-            <img src="img/tajmahal.jpg" alt="Taj Mahal" />
+            <img src="src/assets/img/tajmahal.jpg" alt="Taj Mahal" />
             <h3>Agra</h3>
             <p>
               Agra, famed for the majestic Taj Mahal, epitomizes Mughal grandeur
@@ -31,7 +32,7 @@ const Home = () => {
             </p>
           </div>
           <div className="destination-item">
-            <img src="img/goa.webp" alt="Goa Beach" />
+            <img src="src/assets/img/goa.webp" alt="Goa Beach" />
             <h3>Goa Beaches</h3>
             <p>
               Goa&apos;s pristine beaches are renowned for their golden sands, lively
@@ -42,7 +43,7 @@ const Home = () => {
             </p>
           </div>
           <div className="destination-item">
-            <img src="img/kerela.webp" alt="Kerala Backwaters" />
+            <img src="src/assets/img/kerela.webp" alt="Kerala Backwaters" />
             <h3>Kerala Backwaters</h3>
             <p>
               Kerala&apos;s backwaters are a serene network of lakes, canals, and
@@ -128,6 +129,7 @@ const Home = () => {
           <button type="submit">Send Message</button>
         </form>
       </section>
+      <Footer/>
     </div>
   );
 };
